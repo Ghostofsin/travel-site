@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(30deg, rgb(155, 154, 154), rgb(90, 89, 89));
+  color: rgb(55, 52, 52);
+}
+
+#page-logo a {
+  color: aqua;
+}
+
+header {
+  position: static;
+}
+
+header a {
+  color: aqua;
+}
+
+header nav a:hover {
+  background-color: aqua;
+  color: rgb(55, 52, 52);
+}
+
+main ul {
+  display: grid;
+  width: 1200px;
+  margin: 0 auto 50px auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
+}
+
+li:nth-of-type(3) {
+  grid-column: 1 / 3;
+}
+li:nth-of-type(10) {
+  grid-column: 1 / 3;
+}
+
+main li {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 4px black;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+main li img {
+  width: 280px;
+  height: 260px;
+  object-fit: cover;
+}
+
+.item-content {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-content h2 {
+  margin-top: 0;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions a {
+  text-decoration: none;
+  padding: 6px;
+  color: aqua;
+  border-radius: 5px;
+}
+
+.actions a:hover {
+  background-color: rgb(232, 251, 251);
+}
