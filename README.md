@@ -1,3 +1,3 @@
-first card site without ja
+first card site without js
 
 # travel-site
